@@ -8,7 +8,7 @@
 
 :root {
   /* Produto */
-  --brand-color: #ef54c;
+  --brand-color: #ef5f4c;
 
   /* Shape */
   --background-color: #ffffff;
@@ -21,7 +21,6 @@
   --text-color-secondary: #6c6c6c;
 
   /* Font family */
-  --font-family: "Poppins", sans-serif;
 }
 
 .heading1 {
@@ -36,4 +35,25 @@
 .paragraph-sm {
   font-size: 0.75rem;
   line-height: 170%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding: 0 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
 }
