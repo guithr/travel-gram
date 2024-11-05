@@ -1,2 +1,44 @@
 @import url(./global.css);
 @import url(./nav.css);
+@import url(./about.css);
+@import url(./gallery.css);
+@import url(./footer.css);
+
+/* Media Queries */
+@media (max-width: 1280px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); /* 3 imagens por linha */
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-info p {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about .about-info h1 {
+    text-align: center;
+  }
+  .about .profile-info {
+    flex-direction: column;
+  }
+  .two-info {
+    margin-block: 2rem;
+    flex-direction: row;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 imagens por linha */
+  }
+}
+
+@media (max-width: 474px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 imagem por linha */
+  }
+}

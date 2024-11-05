@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about .profile-info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.about .about-info {
+  max-width: 380px;
+}
+
+.about .about-info h1 {
+  margin-bottom: 0.5rem;
+}
+
+.about .profile-info img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+}
+
+.two-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.two-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

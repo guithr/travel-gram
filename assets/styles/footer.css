@@ -1,0 +1,12 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1.5rem;
+  flex-grow: auto;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
