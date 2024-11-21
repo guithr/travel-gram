@@ -14,7 +14,7 @@ Travel-Gram é uma webpage interativa que convida você a explorar o mundo atrav
 <h2 id="layout">Preview</h2>
 
 <p>
-    <img src="../images/Screenshot_Project.jpg" alt="Image project example" width="500px">
+    <img src="./assets/images/Screenshot_Project.jpg" alt="Image project example" width="500px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
