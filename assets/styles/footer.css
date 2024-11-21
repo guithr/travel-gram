@@ -1,12 +1,24 @@
 #footer {
-  display: flex;
-  justify-content: space-between;
-  margin-block: 1.5rem;
-  flex-grow: auto;
-}
+  & > div {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    flex-grow: auto;
 
-footer ul {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
+    & ul {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    @media (width <= 48em) {
+      flex-direction: column;
+      padding-block: 1rem;
+      text-align: center;
+      gap: 1rem;
+      & ul {
+        justify-content: center;
+      }
+    }
+  }
 }

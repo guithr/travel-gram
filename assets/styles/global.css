@@ -58,7 +58,17 @@ a:hover {
 }
 
 .container {
-  padding: 0 2rem;
+  padding-inline: 2rem;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+@media (width <= 48em) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .heading1 {
+    font-size: 1.5rem;
+  }
 }
